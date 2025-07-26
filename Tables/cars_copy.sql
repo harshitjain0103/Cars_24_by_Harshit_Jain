@@ -1,0 +1,15 @@
+﻿CREATE TABLE `cars_copy` (
+  `Manufacturer` VARCHAR(50) DEFAULT NULL,
+  `Varient` VARCHAR(50) DEFAULT NULL,
+  `Details` VARCHAR(50) DEFAULT NULL,
+  `India_Locations` VARCHAR(50) DEFAULT NULL,
+  `Model` INT DEFAULT NULL,
+  `Distance_Travelled` INT DEFAULT NULL,
+  `Fuel_Type` VARCHAR(20) DEFAULT NULL,
+  `Engine_Capacity` VARCHAR(50) DEFAULT NULL,
+  `Transmission` VARCHAR(15) DEFAULT NULL,
+  `Price` VARCHAR(50) DEFAULT NULL
+)
+ENGINE = INNODB,
+CHARACTER SET utf8mb4,
+COLLATE utf8mb4_0900_ai_ci;
